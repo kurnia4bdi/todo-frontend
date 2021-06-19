@@ -18,22 +18,20 @@ export default {
     data: function () {
         return {
             username: '',
-            password: ''
-        }
+            password: '',
+        };
     },
     methods: {
-        simpan: function () { 
-            localStorage.setItem('usr', this.username)
-            localStorage.setItem('pwd', this.password)
-         },
+        simpan: function () {
+            localStorage.setItem('usr', this.username);
+            localStorage.setItem('pwd', this.password);
+        },
         hapus: function () {
-            localStorage.removeItem('usr')
-            localStorage.removeItem('pwd')
-        }
-    }
-}
+            localStorage.removeItem('usr');
+            localStorage.removeItem('pwd');
+        },
+    },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
